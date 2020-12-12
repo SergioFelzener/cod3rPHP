@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/exe.css">
+    <title>Exercício</title>
+</head>
+
+<body class="exe">
+    <header class="header">
+        <h1>Cod3r PHP</h1>
+        <h2>Visualização do exercício</h2>
+    </header>
+    <nav class="navbar">
+        <a href="index.php" class="red">Voltar</a>
+        <a href="#" class="green">sem formatação</a>
+
+    </nav>
+    <main class="main">
+        <div class="content">
+
+            <?php
+
+            // varias formas de fazer a mesma consulta via GET .
+            // include($_GET['dir'] . "/teste.php");
+            // include($_GET['dir'] . "/" . $_GET['file'] . ".php");
+            // include("{$_GET['dir']}/{$_GET['file']}.php");
+            include(__DIR__ . "/{$_GET['dir']}/{$_GET['file']}.php");
+
+            ?>
+
+
+        </div>
+    </main>
+    <footer class="footer">
+        COD3R CURSO <?= date('Y'); ?> copyright © Sergio Felzener
+    </footer>
+</body>
+
+</html>
