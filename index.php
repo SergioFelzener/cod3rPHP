@@ -18,9 +18,10 @@
                 <div class="module green">
                     <h3>Modulo 01</h3>
                     <ul>
-                        <li><a href="exe.php?dir=teste&file=teste">Exercício A</a></li>
-                        <li><a href="exe.php?dir=basic&file=hello">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exe.php?dir=teste&file=teste">Olá Teste</a></li>
+                        <li><a href="exe.php?dir=basic&file=hello">Hello PHP</a></li>
+                        <li><a href="exe.php?dir=basic&file=html">Integração HTML</a></li>
+                        <li><a href="exe.php?dir=basic&file=css">Integração CSS</a></li>
                     </ul>
                 </div>
                 <div class="module red">
