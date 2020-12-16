@@ -22,6 +22,8 @@
                         <li><a href="exe.php?dir=basic&file=hello">Hello PHP</a></li>
                         <li><a href="exe.php?dir=basic&file=html">Integração HTML</a></li>
                         <li><a href="exe.php?dir=basic&file=css">Integração CSS</a></li>
+                        <li><a href="exe.php?dir=basic&file=comments">Comentários</a></li>
+                        <li><a href="exe.php?dir=basic&file=desafio">Desafio</a></li>
                     </ul>
                 </div>
                 <div class="module red">
