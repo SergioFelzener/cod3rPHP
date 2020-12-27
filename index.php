@@ -42,9 +42,13 @@
                 <div class="module purple">
                     <h3>Modulo 03</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exe.php?dir=variables&file=basic">Basico Variáveis</a></li>
+                        <li><a href="exe.php?dir=variables&file=desafio_variavel">Desafio Variável</a></li>
+                        <li><a href="exe.php?dir=variables&file=assignments">Atribuições</a></li>
+                        <li><a href="exe.php?dir=variables&file=interpolation">Interpolação</a></li>
+                        <li><a href="exe.php?dir=variables&file=">Exercício A</a></li>
+                        <li><a href="exe.php?dir=variables&file=">Exercício A</a></li>
+              
                     </ul>
                 </div>
                 <div class="module yellow">
