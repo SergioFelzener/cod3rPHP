@@ -55,9 +55,16 @@
                 <div class="module yellow">
                     <h3>Modulo 04</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exe.php?dir=control&file=if_else">If & Else</a></li>
+                        <li><a href="exe.php?dir=control&file=relational_operators">Operadores Relacionais</a></li>
+                        <li><a href="exe.php?dir=control&file=desafioPI">Desafio PI</a></li>
+                        <li><a href="exe.php?dir=control&file=logic_operators">Operadores Lógivcos</a></li>
+                        <li><a href="exe.php?dir=control&file=desafio_job">Desafio OP. Lógicos</a></li>
+                        <li><a href="exe.php?dir=control&file=ternary_operator">Operador Ternário</a></li>
+                        <li><a href="exe.php?dir=control&file=switch">Switch Case</a></li>
+                        <li><a href="exe.php?dir=control&file=desafio_switch1">Desafio Switch Case 01</a></li>
+                        <li><a href="exe.php?dir=control&file=desafio_switch2">Desafio Switch Case 02</a></li>
+                        
                     </ul>
                 </div>
                 <div class="module blue">
