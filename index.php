@@ -46,9 +46,10 @@
                         <li><a href="exe.php?dir=variables&file=desafio_variavel">Desafio Variável</a></li>
                         <li><a href="exe.php?dir=variables&file=assignments">Atribuições</a></li>
                         <li><a href="exe.php?dir=variables&file=interpolation">Interpolação</a></li>
-                        <li><a href="exe.php?dir=variables&file=">Exercício A</a></li>
-                        <li><a href="exe.php?dir=variables&file=">Exercício A</a></li>
-              
+                        <li><a href="exe.php?dir=variables&file=variables_variables">Variaveis Variáveis</a></li>
+                        <li><a href="exe.php?dir=variables&file=desafio2_variables">Desafio Variáveis</a></li>
+                        <li><a href="exe.php?dir=variables&file=vr">Valor x Referência</a></li>
+                        <li><a href="exe.php?dir=variables&file=constantes">Constantes</a></li>
                     </ul>
                 </div>
                 <div class="module yellow">
