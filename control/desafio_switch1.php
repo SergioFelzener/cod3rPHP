@@ -4,10 +4,12 @@
     <div>
         <input type="text" name="param">
         <select name="conversao" id="conversao">
-            <option value="km-milhas">KM to Milhas</option>
-            <option value="milhas-km">Milhas to KM</option>
-            <option value="metros-km">Metros to KM</option>
-            <option value="km-metros">KM to Metros</option>
+            <option value="km-milhas">KM → Milhas</option>
+            <option value="milhas-km">Milhas → KM</option>
+            <option value="metros-km">Metros → KM</option>
+            <option value="km-metros">KM → Metros</option>
+            <option value="f-celsius">Fahrenheit → Celsius</option>
+            <option value="celsius-f">Celsius → Fahrenheit</option>
         </select>
     </div>
     <button>Calcular</button>
@@ -18,12 +20,18 @@
     form>* {
         font-size: 1.8rem;
     }
+    button { 
+        margin-top: 8px;
+    }
 </style>
 
 <?php
 
 // echo $_POST['param'] . "<br>";
 // echo $_POST['conversao'];
+const FATOR_DIVISAO_MULTIPLICACAO_GRAUS = 1.8;
+const VALOR_CONVERSAO_GRAUS = 32;
+
 
 if (isset($_POST['param']) && isset($_POST['conversao'])) {
 
@@ -32,6 +40,8 @@ if (isset($_POST['param']) && isset($_POST['conversao'])) {
     $milha = 1.60934;
     $resultado = 0;
     $metro = 1000;
+    $soma = 32; 
+
 
 
     switch ($conversao) {
@@ -51,7 +61,15 @@ if (isset($_POST['param']) && isset($_POST['conversao'])) {
             $resultado = $valor / $metro;
             $msg = "$valor Metros = $resultado KM";
             break;
-        default : 
+        case 'f-celsius':
+            $resultado = ($valor - VALOR_CONVERSAO_GRAUS) / FATOR_DIVISAO_MULTIPLICACAO_GRAUS;
+            $msg = "{$valor}˚ Fahrenheit = " . number_format($resultado, 2, '.', '') ."˚ Celsius";
+            break;
+        case 'celsius-f':
+            $resultado = $valor * FATOR_DIVISAO_MULTIPLICACAO_GRAUS + VALOR_CONVERSAO_GRAUS;
+            $msg = "{$valor}˚ Celsius = " . number_format($resultado, 2, '.', '') ."˚ Fahrenheit ";
+            break;
+        default:
             $msg = "***SEM VALOR***";
     }
 
