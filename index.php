@@ -70,7 +70,9 @@
                 <div class="module blue">
                     <h3>Modulo 05</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
+                        <li><a href="exe.php?dir=arrays&file=basic">Basico Array</a></li>
+                        <li><a href="exe.php?dir=arrays&file=map">Mapa Array</a></li>
+                        <li><a href="exe.php?dir=arrays&file=desafio">Desafio Index</a></li>
                         <li><a href="#">Exercício B</a></li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
