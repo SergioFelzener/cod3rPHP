@@ -73,8 +73,15 @@
                         <li><a href="exe.php?dir=arrays&file=basic">Basico Array</a></li>
                         <li><a href="exe.php?dir=arrays&file=map">Mapa Array</a></li>
                         <li><a href="exe.php?dir=arrays&file=desafio">Desafio Index</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exe.php?dir=arrays&file=desafio_month">Desafio Meses</a></li>
+                        <li><a href="exe.php?dir=arrays&file=operations">Operações</a></li>
+                        <li><a href="exe.php?dir=arrays&file=desafio_sort">Desafio Sorteio</a></li>
+                        <li><a href="exe.php?dir=arrays&file=multi">Arrays Multidimensionais</a></li>
+                        <li><a href="exe.php?dir=arrays&file=const">Arrays Constante</a></li>
+                        <li><a href="exe.php?dir=arrays&file=get">Arrays $_GET</a></li>
+                        <li><a href="exe.php?dir=arrays&file=post">Arrays $_POST</a></li>
+                        <li><a href="exe.php?dir=arrays&file=comparation">Comparação de Arrays</a></li>
+                    
                     </ul>
                 </div>
                 <div class="module gray">
