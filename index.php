@@ -87,9 +87,14 @@
                 <div class="module gray">
                     <h3>Modulo 06</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exe.php?dir=control2&file=for">Laço For</a></li>
+                        <li><a href="exe.php?dir=control2&file=desafio_for">Desafio For</a></li>
+                        <li><a href="exe.php?dir=control2&file=foreach">Foreach</a></li>
+                        <li><a href="exe.php?dir=control2&file=break_continue">Break & Continue</a></li>
+                        <li><a href="exe.php?dir=control2&file=desafio_break_continue">Desafio Break & Continue</a></li>
+                        <li><a href="exe.php?dir=control2&file=do_while">While & Do While</a></li>
+                        <li><a href="exe.php?dir=control2&file=desafio_table">Desafio Tabela</a></li>
+                        <li><a href="exe.php?dir=control2&file=desafio_table2">Desafio Tabela 2</a></li>
                     </ul>
                 </div>
                 <div class="module black">
