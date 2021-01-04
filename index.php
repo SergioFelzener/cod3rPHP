@@ -100,7 +100,18 @@
                 <div class="module black">
                     <h3>Modulo 07</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
+                        <li><a href="exe.php?dir=functions&file=function_scopes">Função e Escopo</a></li>
+                        <li><a href="exe.php?dir=functions&file=arguments_return">Argumentos e Retorno</a></li>
+                        <li><a href="exe.php?dir=functions&file=desafio_palindromo">Desafio Palindromo</a></li>
+                        <li><a href="exe.php?dir=functions&file=arguments_variaveis">Argumentos Variáveis</a></li>
+                        <li><a href="exe.php?dir=functions&file=argument_padrao">Argumento Padrão</a></li>
+                        <li><a href="exe.php?dir=functions&file=tipos">Tipos</a></li>
+                        <li><a href="exe.php?dir=functions&file=function_anonima">Funções Anônimas</a></li>
+                        <li><a href="exe.php?dir=functions&file=closure_callable">Closure & Callable</a></li>
+                        <li><a href="exe.php?dir=functions&file=recursividade">Recursividade</a></li>
+                        <li><a href="exe.php?dir=functions&file=desafio_recursividade">Desafio Recursividade</a></li>
+                        <li><a href="exe.php?dir=functions&file=return_function">Retornando Função</a></li>
+                        <li><a href="exe.php?dir=functions&file=map_filter">MAP & FILTER</a></li>
                         <li><a href="#">Exercício B</a></li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
