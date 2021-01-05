@@ -16,7 +16,7 @@
         <div class="content">
             <nav class="modules">
                 <div class="module green">
-                    <h3>Modulo 01 Basic</h3>
+                    <h3>Modulo 01 "Basic"</h3>
                     <ul>
                         <li><a href="exe.php?dir=teste&file=teste">Olá Teste</a></li>
                         <li><a href="exe.php?dir=basic&file=hello">Hello PHP</a></li>
@@ -27,7 +27,7 @@
                     </ul>
                 </div>
                 <div class="module red">
-                    <h3>Modulo 02</h3>
+                    <h3>Modulo 02 "Tipos Básicos"</h3>
                     <ul>
                         <li><a href="exe.php?dir=types&file=int">Tipos Int</a></li>
                         <li><a href="exe.php?dir=types&file=float">Tipos Float</a></li>
@@ -40,7 +40,7 @@
                     </ul>
                 </div>
                 <div class="module purple">
-                    <h3>Modulo 03</h3>
+                    <h3>Modulo 03 "Variáveis"</h3>
                     <ul>
                         <li><a href="exe.php?dir=variables&file=basic">Basico Variáveis</a></li>
                         <li><a href="exe.php?dir=variables&file=desafio_variavel">Desafio Variável</a></li>
@@ -53,7 +53,7 @@
                     </ul>
                 </div>
                 <div class="module yellow">
-                    <h3>Modulo 04</h3>
+                    <h3>Modulo 04 "Estruturas de Controle"</h3>
                     <ul>
                         <li><a href="exe.php?dir=control&file=if_else">If & Else</a></li>
                         <li><a href="exe.php?dir=control&file=relational_operators">Operadores Relacionais</a></li>
@@ -68,7 +68,7 @@
                     </ul>
                 </div>
                 <div class="module blue">
-                    <h3>Modulo 05</h3>
+                    <h3>Modulo 05 "Arrays"</h3>
                     <ul>
                         <li><a href="exe.php?dir=arrays&file=basic">Basico Array</a></li>
                         <li><a href="exe.php?dir=arrays&file=map">Mapa Array</a></li>
@@ -85,7 +85,7 @@
                     </ul>
                 </div>
                 <div class="module gray">
-                    <h3>Modulo 06</h3>
+                    <h3>Modulo 06 "Estruturas de Controle 2"</h3>
                     <ul>
                         <li><a href="exe.php?dir=control2&file=for">Laço For</a></li>
                         <li><a href="exe.php?dir=control2&file=desafio_for">Desafio For</a></li>
@@ -112,14 +112,20 @@
                         <li><a href="exe.php?dir=functions&file=desafio_recursividade">Desafio Recursividade</a></li>
                         <li><a href="exe.php?dir=functions&file=return_function">Retornando Função</a></li>
                         <li><a href="exe.php?dir=functions&file=map_filter">MAP & FILTER</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
                     </ul>
                 </div>
                 <div class="module orange">
                     <h3>Modulo 08</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
+                        <li><a href="exe.php?dir=oo&file=class">Classe</a></li>
+                        <li><a href="exe.php?dir=oo&file=desafio_class">Desafio Classe</a></li>
+                        <li><a href="exe.php?dir=oo&file=constructor_destructor">Construtor & Destrutor</a></li>
+                        <li><a href="exe.php?dir=oo&file=heranca">Herança</a></li>
+                        <li><a href="exe.php?dir=oo&file=visibility">Visibilidade</a></li>
+                        <li><a href="exe.php?dir=oo&file=static">Membros Estáticos</a></li>
+                        <li><a href="exe.php?dir=oo&file=interface">Interface</a></li>
+                        <li><a href="exe.php?dir=oo&file=abstract">Classes Abstratas</a></li>
+                        <li><a href="exe.php?dir=oo&file=desafio_7erros">Desafio 7 erros</a></li>
                         <li><a href="#">Exercício B</a></li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
