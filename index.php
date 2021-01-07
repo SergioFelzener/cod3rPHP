@@ -126,8 +126,11 @@
                         <li><a href="exe.php?dir=oo&file=interface">Interface</a></li>
                         <li><a href="exe.php?dir=oo&file=abstract">Classes Abstratas</a></li>
                         <li><a href="exe.php?dir=oo&file=desafio_7erros">Desafio 7 erros</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exe.php?dir=oo&file=final">Usando "Final"</a></li>
+                        <li><a href="exe.php?dir=oo&file=traits">Traits #1</a></li>
+                        <li><a href="exe.php?dir=oo&file=traits2">Traits #2</a></li>
+                        <li><a href="exe.php?dir=oo&file=magic_methods">Métodos Mágicos</a></li>
+                        <li><a href="exe.php?dir=oo&file=polimorfism">Polimorfismo</a></li>
                     </ul>
                 </div>
                 <div class="module cian">
