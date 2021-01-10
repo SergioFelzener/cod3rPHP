@@ -98,7 +98,7 @@
                     </ul>
                 </div>
                 <div class="module black">
-                    <h3>Modulo 07</h3>
+                    <h3>Modulo 07 - Funções</h3>
                     <ul>
                         <li><a href="exe.php?dir=functions&file=function_scopes">Função e Escopo</a></li>
                         <li><a href="exe.php?dir=functions&file=arguments_return">Argumentos e Retorno</a></li>
@@ -115,7 +115,7 @@
                     </ul>
                 </div>
                 <div class="module orange">
-                    <h3>Modulo 08</h3>
+                    <h3>Modulo 08 - OO</h3>
                     <ul>
                         <li><a href="exe.php?dir=oo&file=class">Classe</a></li>
                         <li><a href="exe.php?dir=oo&file=desafio_class">Desafio Classe</a></li>
@@ -134,9 +134,14 @@
                     </ul>
                 </div>
                 <div class="module cian">
-                    <h3>Modulo 09</h3>
+                    <h3>Modulo 09 - Includes</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
+                        <li><a href="exe.php?dir=includes&file=include">Includes</a></li>
+                        <li><a href="exe.php?dir=includes&file=include_function">Includes em função</a></li>
+                        <li><a href="exe.php?dir=includes&file=include_require">Includes x Requires</a></li>
+                        <li><a href="exe.php?dir=includes&file=require_return">Require & Return</a></li>
+                        <li><a href="exe.php?dir=includes&file=include_once">Include Once</a></li>
+                        <li><a href="exe.php?dir=includes&file=desafio_heranca">Desafio Includes</a></li>
                         <li><a href="#">Exercício B</a></li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
