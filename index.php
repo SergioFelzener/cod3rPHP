@@ -142,8 +142,26 @@
                         <li><a href="exe.php?dir=includes&file=require_return">Require & Return</a></li>
                         <li><a href="exe.php?dir=includes&file=include_once">Include Once</a></li>
                         <li><a href="exe.php?dir=includes&file=desafio_heranca">Desafio Includes</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                    </ul>
+                </div>
+                <div class="module purple2">
+                    <h3>Modulo 10 - Namespace</h3>
+                    <ul>
+                        <li><a href="exe.php?dir=namespace&file=basic">Namespace</a></li>
+                        <li><a href="exe.php?dir=namespace&file=sub_namespaces">Sub-Namespaces</a></li>
+                        <li><a href="exe.php?dir=namespace&file=use_as">Use / As</a></li>
+                    </ul>
+                </div>
+                <div class="module yell">
+                    <h3>Modulo 11 </h3>
+                    <ul>
+                        <li><a href="exe.php?dir=namespace&file=namespace">Namespace</a></li>
+                    </ul>
+                </div>
+                <div class="module purple3">
+                    <h3>Modulo 12</h3>
+                    <ul>
+                        <li><a href="exe.php?dir=namespace&file=namespace">Namespace</a></li>
                     </ul>
                 </div>
             </nav>

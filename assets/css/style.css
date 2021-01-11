@@ -179,3 +179,27 @@ body {
 .module.black>h3 {
     background-color: #000000;
 }
+
+.module.purple3 {
+    border: 2px solid #5740bd;
+}
+
+.module.purple3>h3 {
+    background-color: #5740bd;
+}
+
+.module.purple2 {
+    border: 2px solid #9e1cd1;
+}
+
+.module.purple2>h3 {
+    background-color: #9e1cd1;
+}
+
+.module.yell {
+    border: 2px solid #ebe712;
+}
+
+.module.yell>h3 {
+    background-color: #ebe712;
+}
