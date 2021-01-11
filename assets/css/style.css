@@ -196,10 +196,10 @@ body {
     background-color: #9e1cd1;
 }
 
-.module.yell {
-    border: 2px solid #ebe712;
+.module.pink {
+    border: 2px solid #eb127f;
 }
 
-.module.yell>h3 {
-    background-color: #ebe712;
+.module.pink>h3 {
+    background-color: #eb127f;
 }

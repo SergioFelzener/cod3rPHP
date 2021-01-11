@@ -64,7 +64,7 @@
                         <li><a href="exe.php?dir=control&file=switch">Switch Case</a></li>
                         <li><a href="exe.php?dir=control&file=desafio_switch1">Desafio Switch Case 01</a></li>
                         <li><a href="exe.php?dir=control&file=desafio_switch2">Desafio Switch Case 02</a></li>
-                        
+
                     </ul>
                 </div>
                 <div class="module blue">
@@ -81,7 +81,7 @@
                         <li><a href="exe.php?dir=arrays&file=get">Arrays $_GET</a></li>
                         <li><a href="exe.php?dir=arrays&file=post">Arrays $_POST</a></li>
                         <li><a href="exe.php?dir=arrays&file=comparation">Comparação de Arrays</a></li>
-                    
+
                     </ul>
                 </div>
                 <div class="module gray">
@@ -151,11 +151,18 @@
                         <li><a href="exe.php?dir=namespace&file=sub_namespaces">Sub-Namespaces</a></li>
                         <li><a href="exe.php?dir=namespace&file=use_as">Use / As</a></li>
                     </ul>
-                </div>
-                <div class="module yell">
-                    <h3>Modulo 11 </h3>
+                    <h3>Modulo 11 - Errors </h3>
                     <ul>
-                        <li><a href="exe.php?dir=namespace&file=namespace">Namespace</a></li>
+                        <li><a href="exe.php?dir=error&file=try_catch">Errors</a></li>
+                        <li><a href="exe.php?dir=error&file=erros_personalizados">Erros Personalizados</a></li>
+                        <li><a href="exe.php?dir=error&file=desafio">Desafio Errors</a></li>
+                        <li><a href="exe.php?dir=error&file=error_handler">Error Handler</a></li>
+                    </ul>
+                </div>
+                <div class="module pink">
+                    <h3>Modulo 12 - Sessão & Cookie</h3>
+                    <ul>
+                        <li><a href="exe.php?dir=session&file=session">Sessão</a></li>
                     </ul>
                 </div>
                 <div class="module purple3">

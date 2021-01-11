@@ -1,0 +1,14 @@
+Sobrescreva o método intdiv para ....
+- Lancar uma exceção quando tentar dividir por 0 (Ja acontece no metodo original).
+- Lancar uma exceção quando o resultado não for inteiro (metodo original truncaria, aqui vamos lancar uma exceção).
+- Dividir normalmente os demais casos.
+
+OS TESTES 
+- intdiv com parametros 8 e 2 [sucesso]
+- intdiv com parametros 8 e 0 [exceção]
+- intdiv com parametros 8 e 3 [exceção]
+- intdiv "Original" com os parametros 8 e 3 [sucesso]
+
+// lembra que nao existe sobrescrita em php, porem existem tecnicas para criar funçoes com o mesmo nome.
+
+
