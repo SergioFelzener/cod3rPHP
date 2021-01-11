@@ -45,6 +45,10 @@
 
     $b = new \Nome\Bem\Grande\Classe();
     $b->func();
+
+
+    $c = new ctx\Classe();
+    $c->func();
     
 
 
