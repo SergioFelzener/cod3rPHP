@@ -7,9 +7,9 @@ body {
     height: 100vh;
     margin: 0px;
     display: grid;
-    grid-template-rows: 120px 1fr 60px;
+    grid-template-rows: 120px 60px 1fr 60px;
     grid-template-columns: 1fr;
-    grid-template-areas: "header" "main" "footer";
+    grid-template-areas: "header" "navbar" "main" "footer";
 }
 
 .header {
@@ -37,7 +37,8 @@ body {
 
 .main {
     grid-area: main;
-    height: calc(100vh - 180px);
+    /* height: calc(100vh - 180px); */
+    height: calc(100vh - 240px);
     /*Definindo tamanho max.*/
     background-color: #dfdbdb;
     padding: 20px;
@@ -202,4 +203,39 @@ body {
 
 .module.pink>h3 {
     background-color: #eb127f;
+}
+
+.navbar {
+    grid-area: navbar;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #555;
+}
+
+.navbar>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding: 5px 10px;
+    /* background-color: #fd8570; */
+    margin-left: 10px;
+}
+
+.navbar>a.green {
+    background-color: #4CAF50;
+}
+
+.navbar>a.red {
+    background-color: #f30a0a;
+}
+
+span.usuario {
+    flex-grow: 1;
+    justify-self: flex-start;
+    color: #EEE;
+    padding-left: 15px;
+    font-size: 1.2rem;
+    font-weight: 300;
 }

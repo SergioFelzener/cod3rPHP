@@ -1,3 +1,14 @@
+<?php
+session_start();
+if($_COOKIE['usuario']) { 
+    $_SESSION['usuario'] = $_COOKIE['usuario'];
+}
+
+if (!$_SESSION['usuario']) { 
+    header('Location: login.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="PT-BR">
 
@@ -12,6 +23,10 @@
         <h1>Cod3r PHP</h1>
         <h2>indice</h2>
     </header>
+    <nav class="navbar">
+        <span class="usuario">Usuário: <?=$_SESSION['usuario'] ?></span>
+        <a href="logout.php">Sair</a>
+    </nav>
     <main class="main">
         <div class="content">
             <nav class="modules">
@@ -163,6 +178,7 @@
                     <h3>Modulo 12 - Sessão & Cookie</h3>
                     <ul>
                         <li><a href="exe.php?dir=session&file=session">Sessão</a></li>
+                        <li><a href="exe.php?dir=session&file=gerenciando_sessao">Gerenciando Sessão</a></li>
                     </ul>
                 </div>
                 <div class="module purple3">
