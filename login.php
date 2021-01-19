@@ -16,6 +16,11 @@ if ($_POST['email']) {
             "nome" => "Aluno Cod3r 2",
             "email" => "aluno2@cod3r.com.br",
             "senha" => "123456"
+        ],
+        [
+            "nome" => "Sergio",
+            "email" => "sergio@teste.com",
+            "senha" => "123456"
         ]
     ];
 
