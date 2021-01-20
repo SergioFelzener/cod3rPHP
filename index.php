@@ -199,6 +199,15 @@ if (!$_SESSION['usuario']) {
                         <li><a href="exe.php?dir=forms&file=form">Formulário</a></li>
                     </ul>
                 </div>
+                <div class="module green">
+                    <h3>Modulo 14 - Database (Mysql)</h3>
+                    <ul>
+                        <li><a href="exe.php?dir=database&file=create_database">Create Database</a></li>
+                        <li><a href="exe.php?dir=database&file=create_table">Create Table</a></li>
+                        <li><a href="exe.php?dir=database&file=insert1">Inserir Registro na Tabela e DB </a></li>
+                        <li><a href="exe.php?dir=database&file=select">Consultar Registros</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
