@@ -182,7 +182,7 @@ if (!$_SESSION['usuario']) {
                     </ul>
                 </div>
                 <div class="module purple3">
-                    <h3>Modulo 12 - API</h3>
+                    <h3>Modulo 13 - API</h3>
                     <ul>
                         <li><a href="exe.php?dir=api&file=date_01">Datas #01</a></li>
                         <li><a href="exe.php?dir=api&file=date_02">Datas #02</a></li>
@@ -191,6 +191,12 @@ if (!$_SESSION['usuario']) {
                         <li><a href="exe.php?dir=api&file=upload_files">Upload de arquivos</a></li>
                         <li><a href="exe.php?dir=api&file=download">Upload/Download de arquivos</a></li>
                         <li><a href="exe.php?dir=api&file=images">Imagens</a></li>
+                    </ul>
+                </div>
+                <div class="module blueDark">
+                    <h3>Modulo 14 - Formulários</h3>
+                    <ul>
+                        <li><a href="exe.php?dir=forms&file=form">Formulário</a></li>
                     </ul>
                 </div>
             </nav>

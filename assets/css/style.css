@@ -205,6 +205,14 @@ body {
     background-color: #eb127f;
 }
 
+.module.blueDark {
+    border: 2px solid #0f118d;
+}
+
+.module.blueDark>h3 {
+    background-color: #0f118d;
+}
+
 .navbar {
     grid-area: navbar;
     display: flex;
