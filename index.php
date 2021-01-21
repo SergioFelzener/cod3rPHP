@@ -206,6 +206,10 @@ if (!$_SESSION['usuario']) {
                         <li><a href="exe.php?dir=database&file=create_table">Create Table</a></li>
                         <li><a href="exe.php?dir=database&file=insert1">Inserir Registro na Tabela e DB </a></li>
                         <li><a href="exe.php?dir=database&file=select">Consultar Registros</a></li>
+                        <li><a href="exe.php?dir=database&file=delete1">Excluir Registro 1</a></li>
+                        <li><a href="exe.php?dir=database&file=delete2">Excluir Registro 2</a></li>
+                        <li><a href="exe.php?dir=database&file=insert2">Inserir Registro na Tabela e DB 2 </a></li>
+                        <li><a href="exe.php?dir=database&file=update">Alterar registro no DB</a></li>
                     </ul>
                 </div>
             </nav>
