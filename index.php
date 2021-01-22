@@ -210,6 +210,9 @@ if (!$_SESSION['usuario']) {
                         <li><a href="exe.php?dir=database&file=delete2">Excluir Registro 2</a></li>
                         <li><a href="exe.php?dir=database&file=insert2">Inserir Registro na Tabela e DB 2 </a></li>
                         <li><a href="exe.php?dir=database&file=update">Alterar registro no DB</a></li>
+                        <li><a href="exe.php?dir=database&file=insert_PDO">Inserir PDO</a></li>
+                        <li><a href="exe.php?dir=database&file=select_PDO">Consultar Registros PDO</a></li>
+                        <li><a href="exe.php?dir=database&file=delete_PDO">Excluir Registro PDO</a></li>
                     </ul>
                 </div>
             </nav>
