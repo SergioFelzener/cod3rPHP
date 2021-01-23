@@ -213,6 +213,7 @@ if (!$_SESSION['usuario']) {
                         <li><a href="exe.php?dir=database&file=insert_PDO">Inserir PDO</a></li>
                         <li><a href="exe.php?dir=database&file=select_PDO">Consultar Registros PDO</a></li>
                         <li><a href="exe.php?dir=database&file=delete_PDO">Excluir Registro PDO</a></li>
+                        <li><a href="exe.php?dir=database&file=update_PDO">Alterar registro no DB (PDO)</a></li>
                     </ul>
                 </div>
             </nav>

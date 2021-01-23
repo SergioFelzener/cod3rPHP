@@ -5,11 +5,14 @@
 require_once('connection_PDO.php');
 
 $connection = newConnection(); 
-$sql = "DELETE FROM cadastro WHERE id = :id";
+$sql = "DELETE FROM cadastro WHERE id = ?"; // se usar no lugar do ? ---> :id descomentar o blindValue
 $stmt = $connection->prepare($sql);
-$stmt->bindValue(':id', 11);
+// $stmt->bindValue(':id', 11);
+// $id = $stmt-> // teste para pegar o id; 
 
-if ($stmt->execute()) { 
+echo "<br>";
+if ($stmt->execute([15])) {
+    echo "Sucesso excluido id";
     $result = $stmt->fetch();
     print_r($result);
 }else { 
