@@ -1,6 +1,21 @@
 <div class="title">Desafio Operadores Lógicos PHP</div>
 
 <!-- 
+    João está em casa com sua familia e faz a seguinte afirmação : 
+    "Tenho planejado 2 trabalhos um na terça-feira e outro na quinta feira."
+    "Caso os 2 trabalhos sejam executados João vai levar a família no shopping,
+    "no final de semana, e vai comprar uma tv de 50' e vão tomar sorvete."
+    "Caso apenas 1 dos trabalhos seja executado João vai levar a família no shopping,
+    "no final de semana, e vai comprar uma tv de 32' e vão tomar sorvete."
+    "Caso nenhum trabalho seja executado João fica em casa com a família no final de semana,
+    "não compra tv e nao toma sorvete.
+
+    Utilizar um formulário para informar os trabalhos a serem executados ou não.
+    Utilizar estruturas de controle com operadores lógicos
+    Imprimir resultado na tela 
+
+
+    (Desenvolvimento)
     Dois Trabalhos -> terça e quinta 
     - Se os dois forem executados -> TV 50'e Sorvete
     - Se os um dos dois forem executados -> TV 32' e Sorvete.
